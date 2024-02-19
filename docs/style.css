@@ -38,7 +38,7 @@ h1 {
     font-size: 5vh;
     line-height: 1.5;
     letter-spacing: .1rem;
-    /* text-shadow: #ffffff7e 0px 0 10px;; */
+    margin-top: 0;
 }
 .deck, .section {
     letter-spacing: .05rem;
