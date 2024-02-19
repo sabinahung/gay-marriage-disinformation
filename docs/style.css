@@ -155,11 +155,13 @@ code {
 }
 
 .footer {
+    font-family: 'Open Sans', sans-serif;
     background: #e1e1e1;
     text-align: center;
     font-size: 18px;
     margin-top: 4em;
     padding: 4em 0;
+    line-height: 2;
 }
 
 figure {
