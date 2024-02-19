@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>An Island Divided by Disinformation</title>
+
+    <!-- social meta tags -->
+    <meta property="og:title" content="An island divided by disinformation">
+    <meta property="og:description" content="Understanding 2018 same-sex marriage in Taiwan with disinformation data">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://sabinahung.github.io/img/flag.jpg">
+    <meta name="twitter:card" content="https://sabinahung.github.io/img/flag.jpg">
+    <meta name="twitter:creator" content="@sabinahung">
+
+    <!-- favicon -->
+    <link rel="icon" href="https://icons8.com/icon/ZGYXhUYK9ciX/fat-cat">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+           
+    <div class="content">
+        <div class="header">
+            <h1>An Island Divided by Disinformation</h1>
+            <p class="deck">Understanding 2018 Same-sex Marriage Referendum in Taiwan with Disinformation Data</p>
+            <p>By <a href="https://sabinahung.github.io/">Sabina Hung</a> 🏳️‍🌈 🏳️‍🌈 </p>
+        </div> 
+        <div class="chat-container">
+
+            <div class="chat-bubble-outgoing">
+                <span class="strikethrough">Starbucks just annouced: Homosexuality is Starbucks' core value. Every cup of drink bought by customers will contribute to supporting gay marriage movement.</span><br><br>
+                Starbucks have been using the logo of a topless two-tailed mermaid that is sexually seductive to sailors for years. As Christians, please boycott Starbucks!<br><br>
+                Don't support same-sex marriage with your money!
+                <span class="timestamp-outgoing timestamp">12:30PM</span>
+                <span class="read-outgoing read">Read</span>
+            </div>
+            <div class="chat-bubble-incoming">
+                What???!!
+                <span class="timestamp-incoming timestamp">12:31PM</span>
+                <span class="read-incoming read">Read</span>
+            </div>
+            <div class="chat-bubble-incoming">
+                Have you heard that they are trying to include homosexuality in primary school textbooks? 
+                <span class="timestamp-incoming timestamp">12:31PM</span>
+                <span class="read-incoming read">Read</span>
+            </div>
+            <div class="chat-bubble-incoming">
+                They're gonna <span class="strikethrough">brainwash our kids into becoming gay!</span> 
+                <span class="timestamp-incoming timestamp">12:31PM</span>
+                <span class="read-incoming read">Read</span>
+            </div>
+            <div class="chat-bubble-outgoing">
+                Legalizing same-sex marriage goes against traditional family values. <span class="strikethrough">It's gonna lead us to exitinction!</span>
+                <span class="timestamp-outgoing timestamp">12:32PM</span>
+                <span class="read-outgoing read">Read</span>
+            </div>
+            <div class="chat-bubble-incoming">
+                <strong>[Press Release]</strong> Many junior high school and elementary school websites have published information about <span class='strikethrough'>children-inappropriate activities</span> due to announcements of Taipei Civil Affairs Bureau<br>
+                2017-10-06
+                ...
+                <span class="timestamp-incoming timestamp">12:32PM</span>
+                <span class="read-incoming read">Read</span>
+            </div>
+        </div>
+        <p>Above are excerpts of messages from 2018 Taiwan obtained from <a href="https://en.cofacts.tw/">Cofacts</a> database--a chatbot that lives in the most used messaging app in Taiwan, LINE to counter disinformation. These messages contain disinformation aimed at stigmatizing the gay community, in an attempt to halt the legalization of same-sex marriage in Taiwan.</p>
+
+        <p>In 2019, Taiwan legalized same-sex marriage through a newly established law specifically for gay couples. It was a siginificant milestone for gay rights movements, but the journey to achieve this had been a rocky one.</p>
+        <p class="section">We came a long way</p>
+    
+        <p>In 2017, the constitutional court in Taiwan ruled that the existing law which prohibited marriage of same sex couples violated the constitutional law. Relevant laws should hence be amended or enacted within two years, if not, same-sex marriage would proceed to be legalized in the Civil Code of Taiwan.</p> 
+
+        <p>The 2018 referendum was therefore held to decide how same-sex marriage should be legalized--whether it is through the Civil Code or through a separate law. The referendum also asked voters whether homosexuality should be included in primary school education.</p> 
+            
+        <p>The constitutional interpretation marked a major progress in gay rights movement in Taiwan, but it also resulted in drastic measures taken by anti-gay conservative groups in Taiwan to obstruct the reform. Led by conservative Christian churches and financed by Cher Wang, the founder of the national phone brand HTC, disinformation about homosexuality quickly became widespread, dominating the narrative. In the referendum in November 2018, 67% voted against legalizing same-sex marriage in Civil Code of Taiwan and the inclusion of homosexuality in primary school education was also vetoed.</p>
+                         
+        <p class="section">Disinformation in Taiwan</p>
+
+        <p>The 2018 referendum remains the most politically engaged referendum in Taiwan until this day. It has the highest turnout among all six referendums since the first one was held in 2004. Unfortunately though, it was also a time when disinformation was flooding all over the place.</p>
+
+        <p>As a LGBTQ ally, I Iooked into disinformation data hoping it would provide insights into the result of the referendum and public opinion pertaining to the topic.</p>
+            
+        <p>I used the <a href="https://huggingface.co/datasets/Cofacts/line-msg-fact-check-tw">database from Cofacts</a>--a collaborative fact-checking platform in Taiwan that allows users to submit and verify information. It has a database of potential disinformation messages and their fact-checking results. I filter the messages down to ones that are recorded in 2018 and search for the messages contain homosexuality. It came down to 168 messages, so I went through them one by one and identified several recurring themes.</p>
+
+        <p>Here's what I found:</p>
+
+        <ol>
+            <li>The stigma that HIV is a disease primarily affecting gay men was widely adopted by anti-gay groups. Moreover, the messages failed to distinguish between HIV and AIDS, further fueling homophobic sentiments by conflating the two.</li>
+            <li>Several core values of Confucianism were used to argue against homosexuality. The messages often cited the traditional Chinese concept of family, marriage and society, as well as the importance of having children to carry on the family line.</li>
+            <li>The mention of Christianity was also prevalent. The messages contained beliefs that homosexuality is a sin, used to justify their stance against homosexuality.</li>
+        </ol>
+
+        <iframe title="Topics associated with homosexuality" aria-label="Bar Chart" id="datawrapper-chart-EL71U" src="https://datawrapper.dwcdn.net/EL71U/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="284" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+
+      <p>We also found that disinformation peaked in the month leading up to the referendum. The number of messages containing disinformation about homosexuality increased from 1 in January 2018 to 69 in November 2018.</p>
+
+        <iframe title="Disinformation spiked as the referendum approached" aria-label="Interactive line chart" id="datawrapper-chart-4RL3o" src="https://datawrapper.dwcdn.net/4RL3o/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+
+        <p>It is clear that disinformation played a significant role in the referendum. Even with the advent of Cofacts, it is impossible to fact-check every single message in time. The result of the referendum was a reflection of the disinformation that was spread.</p>
+
+        <p>
+        Austin Wang, a Taiwanese political scientist at the University of Nevada, Las Vegas, wrote an article about correlation between supporting name-change in Olympics (from Chinese Taipei to Taiwan) and supporting same-sex marriage in the 2018 referendum and found positive correlation between the two groups of voters. "I do these researhes to understand the meaning of every vote casted, to help highlight the public opnion of Taiwan citizens." 
+        </p>
+
+        <p>
+            2018 was a chaotic time in Taiwan. Although the majority voted against LGBTQ community, the referendum also shed lights on where communication is needed.
+        </p>
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <p>You can find my code and data <a href="https://github.com/sabinahung/gay-marriage-disinformation.git">here</a>.</p>
+            <p>Check out my other projects over <a href="https://sabinahung.github.io/">here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
