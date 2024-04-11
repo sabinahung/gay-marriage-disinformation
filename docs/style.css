@@ -5,11 +5,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     background-color: white;
+
 }
 
 .content {
     max-width: 750px;
     margin: auto;
+
 }
 
 .header {
